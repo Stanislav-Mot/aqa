@@ -8,7 +8,7 @@ import java.io.File;
 import java.time.Duration;
 
 public class Options {
-    private static String PICTURE = new File("src/main/resources/bmw_x6_promo1.jpg").getAbsolutePath();
+    private static final String PICTURE = new File("src/main/resources/bmw_x6_promo1.jpg").getAbsolutePath();
 
     public static void testing() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "E:\\webdriver\\chromedriver.exe");
